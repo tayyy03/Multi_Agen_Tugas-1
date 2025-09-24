@@ -13,13 +13,14 @@ Tugas ini merupakan implementasi sistem pemesanan makanan berbasis **multi-agent
 
 ## Struktur Proyek
 .
-├── customer_agent.py # Definisi agen customer
-├── provider_agent.py # Definisi agen provider
-├── logger.py # Modul pencatat interaksi (CSV & JSON)
-├── main.py # Skenario eksekusi utama
+├── customer_agent.py    # Definisi agen customer
+├── provider_agent.py    # Definisi agen provider
+├── logger.py            # Modul pencatat interaksi (CSV & JSON)
+├── main.py              # Skenario eksekusi utama
 ├── conversation_log.csv # Hasil log CSV
 ├── conversation_log.json# Hasil log JSON
-└── README.md # Dokumentasi proyek
+└── README.md            # Dokumentasi proyek
+
 
 
 
