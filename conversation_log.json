@@ -1,0 +1,968 @@
+[
+  {
+    "timestamp": "2025-09-24T08:13:37.641284",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "provider@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758676414.413499",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:14:01.987375",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "provider@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758676438.675301",
+    "content": {
+      "item": "Pasta",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:26:44.011450",
+    "sender": "cust1@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677202.122486",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Mawar 1",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:26:44.045640",
+    "sender": "cust1@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677202.122486",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Mawar 1",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:26:44.059642",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust1@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758677202.122486",
+    "content": {
+      "available": true,
+      "eta": 31,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:26:45.596622",
+    "sender": "cust1@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677203.591942",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Mawar 1",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:26:45.613974",
+    "sender": "cust1@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677203.591942",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Mawar 1",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:26:45.626002",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust1@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758677203.591942",
+    "content": {
+      "available": true,
+      "eta": 43,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:26:45.639534",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust1@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758677203.591942",
+    "content": {
+      "available": true,
+      "eta": 43,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:26:45.652509",
+    "sender": "cust1@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "accept-proposal",
+    "conversation_id": "conv-1758677203.591942",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Mawar 1",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:26:45.664513",
+    "sender": "cust1@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "accept-proposal",
+    "conversation_id": "conv-1758677203.591942",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Mawar 1",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:26:45.677506",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust1@xmpp.jp",
+    "performative": "inform",
+    "conversation_id": "conv-1758677203.591942",
+    "content": {
+      "order_id": "ORD9111",
+      "status": "confirmed"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:26:45.702563",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust1@xmpp.jp",
+    "performative": "inform",
+    "conversation_id": "conv-1758677203.591942",
+    "content": {
+      "order_id": "ORD9111",
+      "status": "confirmed"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:26:45.954701",
+    "sender": "cust2@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677203.912934",
+    "content": {
+      "item": "Burger",
+      "qty": 1,
+      "address": "Jl. Melati 2",
+      "time_window": "12:00-13:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:26:45.996860",
+    "sender": "cust2@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677203.912934",
+    "content": {
+      "item": "Burger",
+      "qty": 1,
+      "address": "Jl. Melati 2",
+      "time_window": "12:00-13:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:26:46.009374",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust2@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758677203.912934",
+    "content": {
+      "available": true,
+      "eta": 23,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:37:23.001483",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "provider@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677839.749877",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:37:46.924603",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "provider@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677863.748591",
+    "content": {
+      "item": "Pasta",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:43.351562",
+    "sender": "cust1@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:43.375888",
+    "sender": "cust1@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:43.390852",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust1@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "available": true,
+      "eta": 16,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:43.404856",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust1@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "available": true,
+      "eta": 16,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:43.418485",
+    "sender": "cust1@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "accept-proposal",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:43.435272",
+    "sender": "cust1@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "accept-proposal",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:43.450814",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust1@xmpp.jp",
+    "performative": "inform",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "order_id": "ORD2041",
+      "status": "confirmed"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:43.479841",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust1@xmpp.jp",
+    "performative": "inform",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "order_id": "ORD2041",
+      "status": "confirmed"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:45.038599",
+    "sender": "cust2@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Burger",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:45.055149",
+    "sender": "cust2@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Burger",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:45.067138",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust2@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "available": true,
+      "eta": 39,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:45.083705",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust2@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "available": true,
+      "eta": 39,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:45.099745",
+    "sender": "cust2@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "accept-proposal",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Burger",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:45.113746",
+    "sender": "cust2@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "accept-proposal",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Burger",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:45.128768",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust2@xmpp.jp",
+    "performative": "inform",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "order_id": "ORD6793",
+      "status": "confirmed"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:45.162268",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust2@xmpp.jp",
+    "performative": "inform",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "order_id": "ORD6793",
+      "status": "confirmed"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:46.661131",
+    "sender": "cust3@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Pasta",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:46.680140",
+    "sender": "cust3@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Pasta",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:46.694996",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust3@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "available": false,
+      "substitute": "Burger",
+      "eta": 22,
+      "delivery_fee": 18000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:46.712000",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust3@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "available": false,
+      "substitute": "Burger",
+      "eta": 22,
+      "delivery_fee": 18000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:46.727995",
+    "sender": "cust3@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "accept-proposal",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Burger",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:46.745529",
+    "sender": "cust3@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "accept-proposal",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Burger",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:46.761528",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust3@xmpp.jp",
+    "performative": "failure",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "status": "failed",
+      "reason": "Out of stock (race condition)"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:46.777434",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust3@xmpp.jp",
+    "performative": "failure",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "status": "failed",
+      "reason": "Out of stock (race condition)"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:48.300915",
+    "sender": "cust4@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:48.323572",
+    "sender": "cust4@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:48.337192",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust4@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "available": true,
+      "eta": 44,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:48.350802",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust4@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "available": true,
+      "eta": 44,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:48.357814",
+    "sender": "cust4@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "accept-proposal",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:48.371027",
+    "sender": "cust4@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "accept-proposal",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "item": "Pizza",
+      "qty": 2,
+      "address": "Jl. Merdeka No. 123",
+      "time_window": "18:00-19:00"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:48.392418",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust4@xmpp.jp",
+    "performative": "inform",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "order_id": "ORD6006",
+      "status": "confirmed"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:39:48.402928",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "cust4@xmpp.jp",
+    "performative": "inform",
+    "conversation_id": "conv-1758677980.024153",
+    "content": {
+      "order_id": "ORD6006",
+      "status": "confirmed"
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:51:27.895504",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758678684.373364",
+    "content": {
+      "item": "Pizza",
+      "qty": 2
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:51:27.916509",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758678684.373364",
+    "content": {
+      "item": "Burger",
+      "qty": 1
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:51:27.936020",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758678684.373364",
+    "content": {
+      "item": "Pasta",
+      "qty": 3
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:51:27.955033",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758678684.373364",
+    "content": {
+      "item": "Pizza",
+      "qty": 2
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:51:27.975043",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "customerbaru@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758678684.373364",
+    "content": {
+      "available": true,
+      "eta": 18,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:51:27.992089",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758678684.373364",
+    "content": {
+      "item": "Burger",
+      "qty": 1
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:51:28.013086",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "customerbaru@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758678684.373364",
+    "content": {
+      "available": true,
+      "eta": 22,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:51:28.032125",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "customerbaru@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758678684.373364",
+    "content": {
+      "available": true,
+      "eta": 18,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:51:28.052138",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-1758678684.373364",
+    "content": {
+      "item": "Pasta",
+      "qty": 3
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:51:28.073150",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "customerbaru@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758678684.373364",
+    "content": {
+      "available": false,
+      "substitute": "Burger",
+      "eta": 47,
+      "delivery_fee": 18000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:51:28.093565",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "customerbaru@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758678684.373364",
+    "content": {
+      "available": true,
+      "eta": 22,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:51:28.114091",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "customerbaru@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-1758678684.373364",
+    "content": {
+      "available": false,
+      "substitute": "Burger",
+      "eta": 47,
+      "delivery_fee": 18000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:52:26.051703",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "1717796161296",
+    "content": {
+      "item": "Pizza",
+      "qty": 2
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:52:26.066416",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "1717796161296",
+    "content": {
+      "item": "Burger",
+      "qty": 1
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:52:26.081478",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "1717796161296",
+    "content": {
+      "item": "Pasta",
+      "qty": 3
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:52:26.096405",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-unknown",
+    "content": {
+      "item": "Pizza",
+      "qty": 2
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:52:26.112211",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "customerbaru@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-unknown",
+    "content": {
+      "available": true,
+      "eta": 36,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:52:26.128390",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-unknown",
+    "content": {
+      "item": "Burger",
+      "qty": 1
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:52:26.143795",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "customerbaru@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-unknown",
+    "content": {
+      "available": true,
+      "eta": 21,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:52:26.158621",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-unknown",
+    "content": {
+      "item": "Pasta",
+      "qty": 3
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:52:26.168912",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "customerbaru@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-unknown",
+    "content": {
+      "available": false,
+      "substitute": "Burger",
+      "eta": 22,
+      "delivery_fee": 18000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:53:25.961277",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "2016936117456",
+    "content": {
+      "item": "Pizza",
+      "qty": 2
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:53:25.976463",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "2016936117456",
+    "content": {
+      "item": "Burger",
+      "qty": 1
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:53:25.990457",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "2016936117456",
+    "content": {
+      "item": "Pasta",
+      "qty": 3
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:53:26.004001",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-unknown",
+    "content": {
+      "item": "Pizza",
+      "qty": 2
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:53:26.016999",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "customerbaru@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-unknown",
+    "content": {
+      "available": true,
+      "eta": 35,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:53:26.029989",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-unknown",
+    "content": {
+      "item": "Burger",
+      "qty": 1
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:53:26.041501",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "customerbaru@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-unknown",
+    "content": {
+      "available": true,
+      "eta": 16,
+      "delivery_fee": 15000
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:53:26.057511",
+    "sender": "customerbaru@xmpp.jp",
+    "receiver": "providerbaru@xmpp.jp",
+    "performative": "request",
+    "conversation_id": "conv-unknown",
+    "content": {
+      "item": "Pasta",
+      "qty": 3
+    }
+  },
+  {
+    "timestamp": "2025-09-24T08:53:26.072522",
+    "sender": "providerbaru@xmpp.jp",
+    "receiver": "customerbaru@xmpp.jp",
+    "performative": "propose",
+    "conversation_id": "conv-unknown",
+    "content": {
+      "available": false,
+      "substitute": "Burger",
+      "eta": 24,
+      "delivery_fee": 18000
+    }
+  }
+]
