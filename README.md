@@ -33,9 +33,9 @@ Tugas ini merupakan implementasi sistem pemesanan makanan berbasis **multi-agent
 
 
 ## Instal dependensi:
-'''
+```
 pip install spade
-'''
+```
 
 ## Konfigurasi Akun XMPP
 
